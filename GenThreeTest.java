@@ -21,7 +21,7 @@ public class GenThreeTest {
             PrintStream originalOut = System.out;
             System.setOut(printStream);
             String[] range = {min, max};
-            Gen3.main(range); // Run the InOrder program
+            GenThree.main(range); // Run the InOrder program
 
             // Reset the standard output
             System.setOut(originalOut);
