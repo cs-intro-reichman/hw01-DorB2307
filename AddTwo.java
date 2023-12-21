@@ -1,6 +1,8 @@
 public class AddTwo {
     public static void main(String[] args) {
-	int sum = Integer.parseInt(args[0]) + Integer.parseInt(args[1]);
-    System.out.println(sum);
+    int x = Integer.parseInt(args[0]);
+	int y = Integer.parseInt(args[1]);
+    int sum = x + y;
+    System.out.println(x + " + " + y + " = " + sum);
     }
 }
