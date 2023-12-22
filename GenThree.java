@@ -2,7 +2,7 @@ public class GenThree {
    public static void main(String[] args) {
         int min = Integer.parseInt(args[0]);
         int max = Integer.parseInt(args[1]);
-        int range = max - min + 1;
+        int range = max - min;
         int num1 = (int)(Math.random() * range) + min;
         int num2 = (int)(Math.random() * range) + min;
         int num3 = (int)(Math.random() * range) + min;
